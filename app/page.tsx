@@ -3,8 +3,12 @@ const Home = () => {
     // <h1 className="text-3xl font-black text-primary-500 bg-dark-100/[.8] hover:bg-black">
     //   Hello World
     // </h1>
-
-    <h1 className="">Welcom to the World of next.js</h1>
+    <>
+      <h1 className="">Welcom to the World of next.js</h1>
+      {/* <h1 className="font-inter">Welcom to the World of next.js</h1>
+      <h1 className="font-monoton">Welcom to the World of next.js</h1> */}
+      <h1 className="font-space-grotesk">Welcom to the World of next.js</h1>
+    </>
   );
 };
 
